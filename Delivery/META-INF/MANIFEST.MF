@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: ServiceDelivery
+Bundle-SymbolicName: ServiceDelivery
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: servicedelivery.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Automatic-Module-Name: ServiceDelivery
+Import-Package: org.osgi.framework;version="1.3.0",
+ servicedelivery
+Bundle-ActivationPolicy: lazy
+Export-Package: servicedelivery
